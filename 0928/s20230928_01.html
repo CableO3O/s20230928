@@ -4,19 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>課表</title>
 </head>
 <style>
     table,
     tr,
-    td {
+    td{
         border: 5px groove;
+        text-align: center;
+        font-size: 50px;
+    }
+    /* margin: auto表格置中 */
+    /* 發現沒辦法置中先上背景顏色確認表格大小、位置 */
+    table{
+        margin: auto;
+        background-color: lightblue;
+    }
+    td{
+        color:mediumblue;
+    }
+    h1{
         text-align: center;
         font-size: 50px;
     }
 </style>
 
 <body>
+    <h1>課表</h1>
     <table>
         <tr>
             <td>節數</td>
